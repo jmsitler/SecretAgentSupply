@@ -1,0 +1,98 @@
+html {
+  font-size: 18px;
+}
+
+body {
+  font-family: Helvetica;
+  font-size: 1rem;
+  color: white;
+  margin: 0;
+}
+
+header {
+  background-color: black;
+  height: 2.32rem;
+  display: flex;
+  align-items: center;
+}
+
+header img {
+  height: 1.5rem;
+  width: auto;
+  padding: 0 1rem 0 0.5rem;
+}
+
+header span {
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  width: 960px;
+  display: flex;
+  margin: auto;
+}
+
+/* Hero Section */
+
+.hero-image {
+  background: url("./../images/moto.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 25rem;
+}
+
+.arrival-callout {
+  background-color: black;
+  padding: 2rem 3rem;
+  position: relative;
+  top: 9rem;
+  width: 20rem;
+}
+
+.arrival-callout h4 {
+  text-transform: capitalize;
+  font-weight: bold;
+  padding-bottom: 0.25rem;
+}
+
+.arrival-callout h1 {
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+/* Navbar Section */
+
+nav {
+  background-color: firebrick;
+  height: 2.5rem;
+  display: flex;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  width: 960px;
+}
+
+nav ul li {
+  display: inline-flex;
+  height: 2.5rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 0 50px;
+}
+
+nav a:hover {
+  text-decoration: none;
+  background-color: black;
+  transition: 0.5s;
+}
