@@ -88,11 +88,97 @@ nav a {
   color: white;
   display: flex;
   align-items: center;
-  padding: 0 50px;
+  padding: 0 2rem;
 }
 
 nav a:hover {
   text-decoration: none;
   background-color: black;
   transition: 0.5s;
+}
+
+/* Products Section */
+
+.products {
+  margin: 3rem 0;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.products .product{
+  width: 30%;
+}
+
+.products .product:hover {
+  opacity: 0.5;
+  transition: 0.3s;
+}
+
+.products .product .product-image {
+  border: 4px solid black;
+  padding: 2rem 0;
+  height: 9rem;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.products .product .product-image {
+  border: 4px solid black;
+  padding: 2rem 0;
+  height: 9rem;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.products .product .product-image img {
+  max-width: 8rem;
+}
+
+.description {
+  background-color: black;
+  padding: 0.5rem 0;
+  display: flex;
+  justify-content: center;
+}
+
+/* Biz-Info Section */
+
+.biz-info {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.biz-info .info {
+  width: 35%;
+}
+
+.info-sub {
+  background-color: black;
+  padding: 1rem 2rem;
+  align-items: center;
+  display: flex;
+}
+
+.info p {
+  color: black;
+  padding-top: .5rem;
+}
+
+/* Footer */
+
+footer {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  margin-top: 4rem;
+}
+
+footer span {
+  padding: 5rem 0;
 }
